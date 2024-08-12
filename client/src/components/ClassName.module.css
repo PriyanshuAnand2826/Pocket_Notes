@@ -1,0 +1,32 @@
+.conatiner{
+  display: flex;
+  height: 100%;
+  width: 100%;
+  padding: 10px 10px;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  gap: 30px;
+}
+.logo{
+  background-color: black;
+   height: 45px;
+   width: 45px;
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-weight: bold;
+   color: white;
+  text-transform: uppercase;
+}
+
+.indiviual_class_name{
+   font-weight: bold;
+   font-size:20px;
+
+}
+
+
+
+
+

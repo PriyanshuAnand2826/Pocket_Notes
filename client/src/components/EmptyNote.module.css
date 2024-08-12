@@ -1,0 +1,33 @@
+.container{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.avatar{
+  width: 50%;
+}
+.title{
+  font-size: 28px;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+ 
+}
+.sub_text{
+  max-width: 430px;
+  margin: 1rem;
+}
+.encryption{
+  display: flex;
+  position: absolute;
+  bottom: 5%;
+  gap: 10px;
+  font-size: 20px;
+}
+
+/* .encryption_text{
+  margin:  auto auto;
+} */
