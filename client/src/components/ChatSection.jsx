@@ -11,7 +11,7 @@ function ChatSection({item,handleBackClick}) {
   const {notes,setNotes} =useContext(Appcontext);
   const user_text=useRef(null)
   const {date,time}=formatDateAndTime();
-  const activecolor=color[item.color]
+  const activecolor=color[item.color-1]
   const str = item.className.trim();; 
   const words = str.split(" ");
   const logo = words.length > 1 ? words[0][0] + words[1][0] : words[0][0];
