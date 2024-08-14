@@ -9,9 +9,9 @@ function Message({content}) {
       </p>
 
       <div className={styles.data_info}>
-        <p>{content.date}</p>
-        <RxDotFilled size={20} />
-        <p>{content.time}</p>
+        <p style={{marginTop:"20px"}}>{content.date}</p>
+        <RxDotFilled style={{marginTop:"20px"}} size={12} />
+        <p   style={{marginTop:"20px"}}> {content.time}</p>
       </div>
     </div>
   )
