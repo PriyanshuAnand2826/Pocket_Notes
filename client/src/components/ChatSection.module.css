@@ -114,12 +114,12 @@ mid content styling  */
   
   .header{
     width: 100%;
-    height: 10%;
+    height: 8%;
   }
   .mid_section{
     width: 100%;
     height: 75%;
-    margin-top: 3rem;
+    margin-top: 3.5rem;
   }
   .send_icon{
     bottom: 20%;
